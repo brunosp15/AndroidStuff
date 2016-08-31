@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OpenSansTextView">
+        <attr name="type"/>
+    </declare-styleable>
+
+    <declare-styleable name="OpenSansEditText">
+        <attr name="type"/>
+        <attr name="mask" format="string"/>
+        <attr name="mask2" format="string"/>
+        <attr name="regex" format="string"/>
+    </declare-styleable>
+
+    <attr name="type">
+        <flag name="bold" value="1"/>
+        <flag name="light" value="2"/>
+        <flag name="regular" value="3"/>
+        <flag name="semibold" value="4"/>
+    </attr>
+
+</resources>
