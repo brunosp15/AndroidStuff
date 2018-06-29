@@ -1,3 +1,4 @@
+#Add this file in /usr/local/bin
 #!/bin/bash
   for var in "$@"
   do
